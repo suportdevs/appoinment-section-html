@@ -1,0 +1,28 @@
+@font-face{
+	font-family:"FontAwesome";
+	src:url("../font/FontAwesome.eot") format("eot"),
+	url("../font/FontAwesome.woff") format("woff"),
+	url("../font/FontAwesome.ttf") format("truetype"),
+	url("../font/FontAwesome.svg#FontAwesome") format("svg");
+}
+@font-face{
+	font-family:"Qlassik";
+	src:url("../font/Qlassik.eot") format("eot"),
+	url("../font/Qlassik.woff") format("woff"),
+	url("../font/Qlassik.ttf") format("truetype"),
+	url("../font/Qlassik.svg#Qlassik") format("svg");
+}
+
+@font-face{
+	font-family:"Kalpurush";
+	src:url("../font/Kalpurush.eot") format("eot"),
+	url("../font/Kalpurush.woff") format("woff"),
+	url("../font/Kalpurush.ttf") format("truetype"),
+	url("../font/Kalpurush.svg#Kalpurush") format("svg");
+}
+
+
+
+
+
+

@@ -1,0 +1,109 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+*{ margin:0; padding:0;}
+body{font-family:'Montserrat-Regular',Sans-Serif, Arial !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;}
+
+.section-bg-1{
+    background: url(images/appointment-img.jpg) no-repeat;
+}
+.section-bg-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+}
+
+.section-bg-1:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #00b8ff;
+    opacity: .7;
+}
+
+.contact-form {
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+
+h2.absolute-text {
+    color: #fff;
+    font-weight: 700;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: none;
+}
+
+input:focus, textarea:focus, button:focus {
+    border: 1px solid #333;
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background: #fff;
+    color: #00b8ff;
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.appointment-text {
+    padding-left: 100px;
+    padding-top: 140px;
+}
+.appointment-text h2 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.appointment-text ul {
+    list-style-type: none;
+    margin-bottom: 25px;
+}
+
+.appointment-text ul li {
+    font-family: arial;
+    font-size: 12px;
+    color: #888;
+    line-height: 25px;
+}
+
+i.fa.fa-shield {
+    color: #00b8ff;
+    padding-right: 10px;
+}
+
+a.more-btn {
+    background: #00b8ff;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+}
+h2.absolute-text {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"]:hover {
+    background: #02a7e8;
+    color: #fff;
+}
+
+a.more-btn:hover {
+    background: #02a7e8;
+    color: #fff;
+}
